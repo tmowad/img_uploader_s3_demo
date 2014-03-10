@@ -1,28 +1,11 @@
-== README
+To use this scrappy uploader, you'll need to add your security credentials
+to the file img_uploader_s3_init.sh, and then run that file as 
+"source img_uploader_s3_init.sh" so that your shell's environment is
+modified to include the AWS credentials.  I left my bucket name in my
+source code, but you'd have to change that as well.  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is just a really amateur rendition of how to upload files, since I
+wasn't sure of how to do it before.  
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+ 
