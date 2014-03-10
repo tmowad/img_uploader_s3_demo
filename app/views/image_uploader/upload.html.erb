@@ -1,2 +1,7 @@
-<h1>ImageUploader#upload</h1>
-<p>Find me in app/views/image_uploader/upload.html.erb</p>
+<h1>Image Uploader</h1>
+<%= form_tag({:controller => 'image_uploader', :action => 'create'}, 
+             :multipart => true) do %>
+  <%= file_field_tag 'picture' %>
+  <br/>
+  <%= submit_tag 'Upload' %>
+<% end %>

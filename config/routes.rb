@@ -1,5 +1,6 @@
 ImgUploaderS3Demo::Application.routes.draw do
   get "image_uploader/upload"
+  post "image_uploader/create"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

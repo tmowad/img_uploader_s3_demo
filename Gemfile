@@ -49,3 +49,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'aws-sdk', '~> 1.36.0'
